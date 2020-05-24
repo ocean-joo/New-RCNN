@@ -224,7 +224,7 @@ def newrcnn_resnet50_fpn(pretrained=False, progress=True, weights=None,
         #weight_path = "new_rcnn_resnet50_fpn.pth"
         weight_path = "weight/newrcnn.pth"
         if weights is not None :
-            weight_path = "weight/" + weights
+            weight_path = "../weight/" + weights
         state_dict = torch.load(weight_path)
         model.load_state_dict(state_dict)
     return model
