@@ -7,7 +7,15 @@ weight은 추후 링크 업로드 예정입니다.
   
   
   
-<img width="1184" alt="image" src="https://user-images.githubusercontent.com/40735375/82559912-5ff7a700-9bab-11ea-8222-dcd7fdf2a907.png">
+**[사진] 모델 구조**  
   
   
-**[사진] 모델 구조**
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/40735375/82559912-5ff7a700-9bab-11ea-8222-dcd7fdf2a907.png">
+  
+  
+ 
+
+**[사진] inference 예시사진**  
+  
+  
+![image](https://user-images.githubusercontent.com/40735375/82759640-a5c1a300-9e29-11ea-85b7-a0cc2219823a.png)
