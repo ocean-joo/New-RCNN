@@ -18,7 +18,7 @@ def collate_fn(batch) :
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
 # default `log_dir` is "runs" - we'll be more specific here
-writer = SummaryWriter('log_dir/new_rcnn_experiment')
+writer = SummaryWriter('../log_dir/new_rcnn_experiment')
 
 # Dataset
 transforms = torchvision.transforms.ToTensor()
@@ -75,6 +75,6 @@ for epoch in range(9, num_epochs) :
     # update the learning rate
     lr_scheduler.step()
     
-    torch.save(model.state_dict(), "weight/new_rcnn_modified_{}.pth".format(epoch))
+    torch.save(model.state_dict(), "../weight/new_rcnn_modified_{}.pth".format(epoch))
 
 writer.close()
